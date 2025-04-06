@@ -103,6 +103,14 @@ const mockChats: { [key: number]: Message[] } = {
     ]
 };
 
+interface CodeBlockProps {
+    node?: any;
+    inline?: boolean;
+    className?: string;
+    children?: React.ReactNode;
+    [key: string]: any;
+}
+
 const DocuBuddy: React.FC = () => {
     const { enqueueSnackbar } = useSnackbar();
     const [query, setQuery] = useState('');
@@ -687,10 +695,9 @@ const DocuBuddy: React.FC = () => {
                                                         key={idx}
                                                         remarkPlugins={[remarkGfm]}
                                                         components={{
-                                                            // Override code blocks to prevent conflict with our custom handler
-                                                            code: ({ node, inline, className, children, ...props }) => {
+                                                            code: ({ node, inline, className, children, ...props }: CodeBlockProps) => {
                                                                 if (inline) {
-                                                                    return <code {...props}>{children}</code>;
+                                                                    return <code className={className} {...props}>{children}</code>;
                                                                 }
                                                                 return null;
                                                             }

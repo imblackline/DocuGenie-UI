@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [mobileMenuAnchor, setMobileMenuAnchor] = React.useState<null | HTMLElement>(null);
   const [languageMenuAnchor, setLanguageMenuAnchor] = React.useState<null | HTMLElement>(null);
-  const { currentLanguage, setLanguage } = useLanguage('en');
+  const { currentLanguage, setLanguage } = useLanguage();
   const { isDarkMode, toggleTheme } = useCustomTheme();
 
   const handleMobileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
