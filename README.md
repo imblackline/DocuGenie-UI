@@ -1,10 +1,11 @@
-# Project Name: **DocuGenie** RAG System
+# **DocuGenie** RAG System
+<img src="https://github.com/user-attachments/assets/c187f445-3df9-4877-883f-4f07783c7d20" alt="image" width="300"/>
+
 
 ## Overview
 
 This project provides a **Retrieval-Augmented Generation (RAG)** system that integrates internal documentation, external APIs, and language models to generate intelligent answers to user queries. This guide will walk you through the setup and installation process, including how to create a `.env` file, install dependencies, and configure the environment.
-### Detailed Steps:
-![Flow Chart](docs/drs/imgs/Flow%20Chart.jpg)
+
 ## Project Workflow
 
 ### 1. **User Input**
@@ -135,30 +136,11 @@ Before starting, ensure that you have the following software installed:
    First, clone the project repository to your local machine:
 
    ```bash
-   git clone https://github.com/mnarizzano/se24-p22
-   cd se24-p22
+   git clone [https://github.com/mnarizzano/se24-p22](https://github.com/imblackline/DocuGenie-UI)
+   cd DocuGenie-UI
    ```
 
-2. **Create a Virtual Environment**:
-
-   It's recommended to use a virtual environment to manage dependencies:
-
-   ```bash
-   python -m venv venv
-   ```
-
-   Activate the virtual environment:
-   
-   - On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-   - On Windows:
-     ```bash
-     .\venv\Scripts\activate
-     ```
-
-### 3. Installing Dependencies
+### 2. Installing Dependencies
 
 1. Install the required Frontend dependencies with npm:
 
@@ -167,88 +149,18 @@ Before starting, ensure that you have the following software installed:
    ```
 
 ### 4. Running the Project
-#### Running Backend
 
 Once you have installed the dependencies, you can run the project by using the provided scripts or commands. Refer to the project-specific documentation for details on how to start the application. Example:
 
 ```bash
-cd /backend
-python app.py
-```
-
-#### Running Frontend
-
-Once you have installed the dependencies, you can run the project by using the provided scripts or commands. Refer to the project-specific documentation for details on how to start the application. Example:
-
-```bash
-cd /frontend
 npm start
 ```
 
-### 5. Environment Variables
-
-To run the project, you need to set up environment variables to configure API keys and model names. You can do this by creating a `.env` file in the root directory of the project.
-
-1. **Create a `.env` file**:
-
-   In the project root, create a `.env` file. The `.env` file should contain the following environment variables:
-
-   ```env
-   # Your personal GROQ API key
-   GROQ_API_KEY=your-own-api-key-here
-
-   # The embedding model for sentence transformer
-   EMBEDDING_MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
-
-   # The LLM model for processing queries
-   LLM_MODEL_NAME=llama-3.3-70b-versatile
-   ```
-
-2. **How to set your API Key**:
-
-   - Replace `your-own-api-key-here` with your own **GROQ API Key**. You can obtain the key from the relevant API provider.
-   
-   - `EMBEDDING_MODEL_NAME` and `LLM_MODEL_NAME` should remain as they are unless you want to change them to other models. These are default models for sentence embeddings and language processing.
-
-### 6. Contributing
+### 5. Contributing
 
 We welcome contributions! If you want to contribute to the project, please fork the repository, create a new branch, make your changes, and then create a pull request. Make sure to follow our code guidelines and write unit tests where applicable.
 
-### 7. Documents and Charts
 
-This project includes three diagrams located in the `docs` directory. You can find them at the following paths:
-- [Class Diagram](docs/drs/imgs/Class%20Diagram.jpg)
-- [Dynamic Diagram](docs/drs/imgs/Dynamic%20Diagram.jpg)
-- [Object Diagram](docs/drs/imgs/Object%20Diagram.jpg)
-
----
-
-## Additional Notes:
-
-- **API Keys and Model Access**: Ensure that your GROQ API Key and other model access credentials are kept private. Never share these keys in public repositories or unsecured locations.
-  
-- **Model Versions**: The current setup uses the `sentence-transformers/all-MiniLM-L6-v2` embedding model and `llama-3.3-70b-versatile` for the language model. If you prefer different versions or need specialized models, update the `.env` file accordingly.
-
----
-
-### Example `.env` File:
-
-```env
-# .env
-GROQ_API_KEY=your-own-api-key-here
-EMBEDDING_MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
-LLM_MODEL_NAME=llama-3.3-70b-versatile
-```
-
-### Contributors
-
-We would like to thank the following individuals for their contributions to the project:
-
-- **[Sobhan Bazubandi](https://github.com/sobosha)** - Backend development and FAISS integration.
-- **[Amirmahdi Aboutalebi](https://github.com/AmirmahdiAbtl)** - AI model integration and optimization.
-- **[Amirhossein Yaghoubnezhad](https://github.com/imblackline)** - Frontend development and UI/UX design.
-
- 
 ---
 
 ### Contact
