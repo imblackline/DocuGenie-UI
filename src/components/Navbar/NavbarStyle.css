@@ -1,0 +1,13 @@
+.change-theme {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: gray;
+    margin-top: 3px;
+    transition: 0.3s;
+}
+.lang_change {
+    margin-right: 20px !important;
+}
+.change-theme:hover {
+    color: var(--first-color);
+}

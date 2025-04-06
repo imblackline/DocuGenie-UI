@@ -1,0 +1,102 @@
+{
+  "app": {
+    "title": "DocuGenie"
+  },
+  "nav": {
+    "home": "Home",
+    "markPolish": "Mark Polish",
+    "devDocs": "Dev Docs",
+    "docuBuddy": "Docu Buddy"
+  },
+  "theme": {
+    "lightMode": "Switch to Light Mode",
+    "darkMode": "Switch to Dark Mode"
+  },
+  "common": {
+    "getStarted": "Get Started",
+    "send": "Send",
+    "loading": "Loading..."
+  },
+  "home": {
+    "greeting": "Hello, My Friend",
+    "name": "I am DocuGenie",
+    "education": "Your Markdown Assistant Friend",
+    "scrollDown": "Scroll Down"
+  },
+  "markPolish": {
+    "title": "MarkPolish",
+    "description": "Got a markdown draft that needs some TLC? Upload your markdown file and API specs, and our AI will refine, revise, and enhance it for clarity, accuracy, and consistency. Your documentation will shine like never before, perfectly aligned with your APIs.",
+    "button": "Revise My Markdown",
+    "input": {
+      "send": "Send",
+      "placeholder": "Type your message ..."
+    },
+    "conversation": {
+      "select": "Select a conversation",
+      "or": "or",
+      "create": "Create a new conversation",
+      "instruction": "Write your markdown or upload .md file",
+      "subInstruction": "(Upload openapi spec .yml/.yaml files optionally)"
+    },
+    "responses": {
+      "error": "Something went wrong. Please try again."
+    },
+    "fileUpload": {
+      "invalidType": "Invalid file type. Please upload Markdown (.md) or OpenAPI spec (.yml/.yaml) files.",
+      "invalidSize": "File size exceeds the limit of 5MB. Please upload smaller files.",
+      "noFile": "No files selected. Please select files to upload.",
+      "error": "Error reading file. Please try again.",
+      "uploaded": "Uploaded Files",
+      "clear": "Clear Files"
+    }
+  },
+  "devDocs": {
+    "title": "DevDocs",
+    "description": "Got code? Describe your project, link your APIs, and we'll produce markdown documentation that perfectly captures your project's essence. Sit back as your code comes to life in well-structured tutorials and guides.",
+    "button": "Generate Markdown",
+    "input": {
+      "placeholder": "Ask me about your code or API documentation...",
+      "send": "Send"
+    },
+    "upload": {
+      "button": "Upload Files",
+      "unsupportedFile": "Unsupported file type. Please upload code files (.js, .py, etc.) or OpenAPI spec files (.yml, .yaml)",
+      "error": "Error reading file"
+    },
+    "conversation": {
+      "select": "Select a conversation",
+      "or": "or",
+      "create": "Create a new conversation",
+      "instruction": "Ask for markdown and upload code files",
+      "subInstruction": "(Upload OpenAPI spec .yml/.yaml files optionally)"
+    },
+    "responses": {
+      "error": "Sorry, an error occurred while processing your request",
+      "apiError": "Failed to communicate with the server. Please try again."
+    },
+    "sidebar": {
+      "title": "Conversations",
+      "new": "New Conversation",
+      "toggle": "Toggle Sidebar"
+    }
+  },
+  "docuBuddy": {
+    "title": "DocuBuddy",
+    "description": "Once your markdown and API documentation are in the portal, it's time for a revolution! Chat with our assistant to explore functionality, generate code snippets, and get instant answers to user queries. It's like having a personal documentation guru.",
+    "button": "Ask the Assistant",
+    "input": {
+      "send": "Send",
+      "placeholder": "Type your message ..."
+    },
+    "conversation": {
+      "select": "Select a conversation",
+      "or": "or",
+      "create": "Create a new conversation",
+      "instruction": "Write your question or ask for code",
+      "subInstruction": "(Try secml with python ;)"
+    },
+    "responses": {
+      "error": "Something went wrong. Please try again."
+    }
+  }
+}

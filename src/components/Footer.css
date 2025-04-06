@@ -1,0 +1,76 @@
+/*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--first-color);
+  margin-top: 3rem;
+}
+
+.footer__container {
+  padding: 2rem 0 2rem;
+}
+
+.footer__title,
+.footer__link {
+  color: var(--body-color);
+}
+
+.footer__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.25rem;
+}
+
+.footer__social-link {
+  background-color: var(--body-color);
+  color: var(--first-color);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  display: inline-flex;
+}
+
+.footer__copy {
+  display: block;
+  margin-top: 1.5rem;
+  color: var(--container-color);
+  text-align: center;
+  font-size: var(--smaller-font-size);
+}
+
+.section__audio {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.section__audio audio {
+  width: 80%;
+  max-width: 600px;
+}
+
+.section__table {
+  display: flex;
+  justify-content: center;
+}
+
+.section__table table {
+  width: 90%;
+  max-width: 900px;
+  border-collapse: collapse;
+}
+
+.section__table table th,
+.section__table table td {
+  border-bottom: 1px solid black;
+} 

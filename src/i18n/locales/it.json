@@ -1,0 +1,96 @@
+{
+  "app": {
+    "title": "DocuGenie"
+  },
+  "nav": {
+    "home": "Home",
+    "markPolish": "Markdown Polish",
+    "devDocs": "Doc Sviluppatore",
+    "docuBuddy": "Docu Buddy"
+  },
+  "theme": {
+    "lightMode": "Passa alla modalità chiara",
+    "darkMode": "Passa alla modalità scura"
+  },
+  "common": {
+    "getStarted": "Inizia ora",
+    "send": "Invia",
+    "loading": "Caricamento..."
+  },
+  "home": {
+    "greeting": "Ciao, Amico Mio",
+    "name": "Sono DocuGenie",
+    "education": "Il Tuo Amico Assistente Markdown",
+    "scrollDown": "Scorri in Basso"
+  },
+  "markPolish": {
+    "title": "MarkPolish",
+    "description": "Hai una bozza markdown che ha bisogno di cure? Carica il tuo file markdown e le specifiche API, e la nostra IA lo affinerà, revisionerà e migliorerà per chiarezza, accuratezza e coerenza. La tua documentazione brillerà come mai prima, perfettamente allineata con le tue API.",
+    "button": "Rivedi il Mio Markdown",
+    "input": {
+      "placeholder": "Inserisci il tuo testo Markdown qui...",
+      "send": "Invia"
+    },
+    "conversation":{
+      "select":"Seleziona una conversazione",
+      "or": "o",
+      "create": "Crea una nuova conversazione",
+      "instruction": "Scrivi il tuo markdown o carica .md file",
+      "subInstruction": "(Carica specifiche API .yml/.yaml opzionalmente)"
+    },
+    "responses": {
+      "error": "Si è verificato un errore. Riprova."
+    },
+    "fileUpload": {
+      "invalidType": "Tipo di file non valido. Carica file Markdown (.md) o OpenAPI spec (.yml/.yaml).",
+      "invalidSize": "La dimensione dei file supera il limite di 5MB. Carica file più piccoli.",
+      "noFile": "Nessun file selezionato. Seleziona i file da caricare.",
+      "error": "Errore durante la lettura del file. Riprova.",
+      "uploaded": "File Caricati",
+      "clear": "Rimuovi File"
+    }
+  },
+  "devDocs": {
+    "title": "Dev Docs",
+    "description": "Hai codice? Descrivi il tuo progetto, collega le tue API, e creeremo documentazione markdown che cattura perfettamente l'essenza del tuo progetto. Siediti mentre il tuo codice si materializza in tutorial e guide strutturate.",
+    "button": "Genera Markdown",
+    "input": {
+      "placeholder": "Chiedi informazioni sul tuo codice o sulla documentazione API...",
+      "send": "Invia"
+    },
+    "upload": {
+      "button": "Carica File",
+      "unsupportedFile": "Tipo di file non supportato. Carica file di codice (.js, .py, ecc.) o file di specifiche OpenAPI (.yml, .yaml)",
+      "error": "Errore durante la lettura del file"
+    },
+    "conversation": {
+      "select": "Seleziona una conversazione",
+      "or": "o",
+      "create": "Crea una nuova conversazione",
+      "instruction": "Chiedi markdown e carica file di codice",
+      "subInstruction": "(Carica file di specifiche OpenAPI .yml/.yaml opzionalmente)"
+    },
+    "responses": {
+      "error": "Si è verificato un errore. Riprova."
+    }
+  },
+  "docuBuddy": {
+    "title": "DocuBuddy",
+    "description": "Una volta che il tuo markdown e la documentazione API sono nel portale, è tempo di una rivoluzione! Chatta con il nostro assistente per esplorare funzionalità, generare frammenti di codice e ottenere risposte immediate alle domande degli utenti. È come avere un guru personale della documentazione.",
+    "button": "Chiedi all'Assistente",
+    "input":{
+      "send": "Invia",
+      "placeholder": "Scrivi il tuo messaggio ..."
+    },
+    "conversation":{
+      "select":"Seleziona una conversazione",
+      "or": "o",
+      "create": "Crea una nuova conversazione",
+      "instruction": "Scrivi la tua domanda o chiedi codice",
+      "subInstruction": "(Prova secml con python ;)"
+    },
+    "responses":{
+      "error": "Si è verificato un errore. Riprova."
+    }
+  }
+}
