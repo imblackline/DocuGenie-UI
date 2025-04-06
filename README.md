@@ -1,4 +1,6 @@
-# Project Name: **DocuGenie** RAG System
+# **DocuGenie** RAG System
+<img src="https://github.com/user-attachments/assets/c187f445-3df9-4877-883f-4f07783c7d20" alt="image" width="300"/>
+
 
 ## Overview
 
